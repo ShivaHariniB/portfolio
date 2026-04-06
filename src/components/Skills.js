@@ -1,50 +1,60 @@
 import React from "react";
 import "../styles/Skills.css";
 
-const skillsData = [
-  { label: "React", percent: 95 },
-  { label: "JavaScript / TypeScript", percent: 93 },
-  { label: "CSS / HTML", percent: 88 },
-  { label: "MySQL", percent: 82 },
-  { label: "Cordova", percent: 80 },
-  { label: "Java", percent: 85 },
-  { label: "IntelliJ", percent: 90 },
-  { label: "VS Code", percent: 95 },
-  { label: "Git", percent: 92 },
-  { label: "Postman", percent: 80 },
-  { label: "Android Studio", percent: 84 },
-];
-
 const Skills = () => {
   return (
     <section id="skills" className="skills-section">
-      <div className="skills-content">
-        <div className="skills-left">
-          <h2>My creative skills & experiences.</h2>
-          <p>
-            I specialize in building production-grade applications with modern
-            frontend and backend technologies. My strengths include React-driven
-            UI development, clean JavaScript/TypeScript architecture, and strong
-            tooling support for agile delivery across mobile and web platforms.
-            I also have extensive experience with relational databases and
-            cross-platform mobile frameworks.
-          </p>
+      <h2>Technical skills</h2>
+      <div className="skills-grid">
+        <div className="skill-box">
+          <h3>
+            <i className="bi bi-code"></i> Programming Languages
+          </h3>
+          <div className="skill-buttons">
+            <span className="skill-button">Javascript</span>
+            <span className="skill-button">Typescript</span>
+            <span className="skill-button">SQL</span>
+            <span className="skill-button">Java</span>
+            <span className="skill-button">Python</span>
+          </div>
         </div>
-        <div className="skills-right">
-          {skillsData.map((skill) => (
-            <div key={skill.label} className="skill-progress">
-              <div className="skill-label">
-                <span>{skill.label}</span>
-                <span>{skill.percent}%</span>
-              </div>
-              <div className="progress-track">
-                <div
-                  className="progress-fill"
-                  style={{ width: `${skill.percent}%` }}
-                ></div>
-              </div>
-            </div>
-          ))}
+        <div className="skill-box">
+          <h3>
+            <i className="bi bi-globe"></i> Web & Mobile Development
+          </h3>
+          <div className="skill-buttons">
+            <span className="skill-button">React</span>
+            <span className="skill-button">HTML/CSS</span>
+            <span className="skill-button">Cordova</span>
+            <span className="skill-button">Android(Kotlin)</span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <h3>
+            <i className="bi bi-gear"></i> Version Control and DevOps
+          </h3>
+          <div className="skill-buttons">
+            <span className="skill-button">Git</span>
+            <span className="skill-button">CI/CD with Jenkins</span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <h3>Tools & IDEs</h3>
+          <div className="skill-buttons">
+            <span className="skill-button">IntelliJ</span>
+            <span className="skill-button">VS Code</span>
+            <span className="skill-button">Postman</span>
+            <span className="skill-button">Android Studio</span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <h3>
+            <i className="bi bi-database"></i> Databases
+          </h3>
+          <div className="skill-buttons">
+            <span className="skill-button">MySQL</span>
+            <span className="skill-button">PostgreSQL</span>
+          </div>
         </div>
       </div>
     </section>

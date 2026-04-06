@@ -7,7 +7,7 @@
 }
 
 .contact-page-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #000000;
   margin: 0 0 2rem 0;
   font-weight: 700;
@@ -24,7 +24,7 @@
 /* Left side - Contact Info */
 .contact-info h2 {
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #000000;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .info-item i {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #000000;
   margin-top: 0.25rem;
   min-width: 24px;
@@ -48,7 +48,7 @@
 }
 
 .info-label {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #555555;
   font-weight: 600;
   margin: 0;
@@ -57,7 +57,7 @@
 }
 
 .info-value {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   color: #000000;
   font-weight: 500;
   margin: 0.25rem 0 0 0;
@@ -77,7 +77,7 @@
 /* Right side - Contact Form */
 .contact-form-wrapper h2 {
   margin-bottom: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #000000;
 }
 
@@ -88,7 +88,7 @@
   border-radius: 8px;
   border-left: 4px solid #28a745;
   margin-bottom: 1rem;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 .contact-form {

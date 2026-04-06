@@ -37,13 +37,24 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="#about"
+                href="#skills"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection("about");
+                  scrollToSection("skills");
                 }}
               >
-                About
+                Skills
+              </a>
+            </li>
+            <li>
+              <a
+                href="#experience"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("experience");
+                }}
+              >
+                Experience
               </a>
             </li>
             <li>
@@ -55,17 +66,6 @@ const Header = () => {
                 }}
               >
                 Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="#skills"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection("skills");
-                }}
-              >
-                Skills
               </a>
             </li>
             <li>
