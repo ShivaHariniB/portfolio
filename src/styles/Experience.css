@@ -1,0 +1,113 @@
+.experience-section {
+  background-color: #e9e9e9;
+  padding: 3rem 2rem;
+  border-radius: 14px;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h2 {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience-subtitle {
+  color: #000000;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-box {
+  border: 1px solid #818181;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #ffffff;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.experience-left h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.company {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.experience-right {
+  text-align: right;
+}
+
+.doj,
+.period {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.location {
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  color: #333333;
+  font-weight: 500;
+}
+
+.description {
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.experience-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.skill-button {
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .experience-container {
+    gap: 1rem;
+  }
+}
+
+.experience-left h3 i {
+  margin-right: 0.5rem;
+}
+
+.experience-right p i {
+  margin-right: 0.5rem;
+}

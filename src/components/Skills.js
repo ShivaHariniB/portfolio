@@ -5,6 +5,10 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <h2>Technical skills</h2>
+      <p>
+        Comprehensive expertise across modern development stack with focus on
+        scalable web applications and DevOps practices.
+      </p>
       <div className="skills-grid">
         <div className="skill-box">
           <h3>
