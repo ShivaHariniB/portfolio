@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
+import { PORTFOLIO_DATA } from "../constants";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -23,7 +24,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Create mailto link with form data
-    const mailtoLink = `mailto:hariniavish@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:${PORTFOLIO_DATA.email}?subject=${encodeURIComponent(
       formData.subject,
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
@@ -50,7 +51,7 @@ const Contact = () => {
             <i className="bi bi-person-fill"></i>
             <div>
               <p className="info-label">Name</p>
-              <p className="info-value">Shiva Harini Balakumaran</p>
+              <p className="info-value">{PORTFOLIO_DATA.name}</p>
             </div>
           </div>
 

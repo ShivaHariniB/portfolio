@@ -1,7 +1,6 @@
 .contact-section {
-  padding: var(--spacing-2xl) var(--spacing-md);
+  padding: var(--section-padding-vertical) var(--section-padding-horizontal);
   border-radius: var(--radius-lg);
-  background-color: #101c34;
   border: 1px solid rgba(103, 149, 255, 0.5);
   box-shadow: var(--shadow-md);
 }

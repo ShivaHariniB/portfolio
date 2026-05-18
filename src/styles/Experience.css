@@ -1,9 +1,9 @@
 .experience-section {
-  padding: var(--spacing-2xl) var(--spacing-md);
+  padding: var(--section-padding-vertical) var(--section-padding-horizontal);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
-  background-color: var(--color-lighter-gray);
+  background-color: #f4f4f4;
 }
 
 .experience-section h2 {

@@ -24,7 +24,7 @@ const Skills = () => {
         </div>
         <div className="skill-box">
           <h3>
-            <i className="bi bi-globe"></i> Web & Mobile Development
+            <i className="bi bi-globe"></i> Frontend & Mobile
           </h3>
           <div className="skill-buttons">
             <span className="skill-button">React</span>
@@ -43,7 +43,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skill-box">
-          <h3>Tools & IDEs</h3>
+          <h3>Developer Tools</h3>
           <div className="skill-buttons">
             <span className="skill-button">IntelliJ</span>
             <span className="skill-button">VS Code</span>
@@ -58,6 +58,15 @@ const Skills = () => {
           <div className="skill-buttons">
             <span className="skill-button">MySQL</span>
             <span className="skill-button">PostgreSQL</span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <h3>AI Developer Tools</h3>
+          <div className="skill-buttons">
+            <span className="skill-button">GitHub Copilot</span>
+            <span className="skill-button">ChatGPT</span>
+            <span className="skill-button">Claude</span>
+            <span className="skill-button">Ollama</span>
           </div>
         </div>
       </div>

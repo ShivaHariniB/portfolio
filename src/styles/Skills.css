@@ -1,7 +1,6 @@
 .skills-section {
-  padding: var(--spacing-2xl) var(--spacing-md);
+  padding: var(--section-padding-vertical) var(--section-padding-horizontal);
   border-radius: var(--radius-lg);
-  background-color: #101c34;
   border: 1px solid rgba(103, 149, 255, 0.5);
   box-shadow: var(--shadow-md);
 }
@@ -24,7 +23,7 @@
   border: 1px solid var(--color-gray);
   border-radius: var(--radius-sm);
   padding: var(--spacing-md);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--color-white);
 }
 
 .skill-box h3 {

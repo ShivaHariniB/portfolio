@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Hero.css";
+import { PORTFOLIO_DATA } from "../constants";
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <h1>
             <span className="small-line">Hello, I'm</span>
-            <span className="name-line">Shiva Harini Balakumaran</span>
+            <span className="name-line">{PORTFOLIO_DATA.name}</span>
           </h1>
           <p className="hero-subtitle">
             Software Developer | React Enthusiast | Full-Stack Engineer
@@ -51,10 +52,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-image">
-          <img
-            src="/assets/images/profile.jpg"
-            alt="Shiva Harini Balakumaran"
-          />
+          <img src="/assets/images/profile.JPG" alt={PORTFOLIO_DATA.name} />
           <div className="availability-tag">
             <span className="availability-dot"></span>
             Available for Work
