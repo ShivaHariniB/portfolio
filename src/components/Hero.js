@@ -7,6 +7,9 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-text">
+          <div className="btn btn-primary-intro-badge">
+            👋 Software Developer based in Seattle
+          </div>
           <h1>
             <span className="small-line">Hello, I'm</span>
             <span className="name-line">{PORTFOLIO_DATA.name}</span>
@@ -52,10 +55,10 @@ const Hero = () => {
         </div>
 
         <div className="hero-image">
-          <img src="/assets/images/profile.JPG" alt={PORTFOLIO_DATA.name} />
+          <img src="/assets/images/Profile.JPG" alt={PORTFOLIO_DATA.name} />
           <div className="availability-tag">
             <span className="availability-dot"></span>
-            Available for Work
+            Open to Opportunities
           </div>
         </div>
       </div>
