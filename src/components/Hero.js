@@ -23,7 +23,11 @@ const Hero = () => {
             creating seamless digital experiences for web and mobile platforms.
           </p>
           <div className="hero-buttons">
-            <a href="/resume.pdf" className="btn btn-download" download>
+            <a
+              href="/assets/Shiva Harini Resume .pdf"
+              className="btn btn-download"
+              download
+            >
               <i className="bi bi-download" aria-hidden="true" /> Download
               Resume
             </a>
