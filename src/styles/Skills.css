@@ -4,7 +4,15 @@
   border: 1px solid rgba(103, 149, 255, 0.5);
   box-shadow: var(--shadow-md);
 }
-
+.skills-section p {
+  max-width: 750px;
+  margin: 0 auto var(--spacing-2xl);
+  text-align: center;
+  color: var(--color-dark-gray);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.7;
+}
 .skills-section h2 {
   color: var(--color-black);
   font-size: var(--font-size-4xl);
@@ -22,14 +30,19 @@
 .skill-box {
   border: 1px solid var(--color-gray);
   border-radius: var(--radius-sm);
-  padding: var(--spacing-md);
+  padding: 1.5rem;
   background-color: var(--color-white);
+  min-height: 150px;
+  transition: transform 0.2s ease;
 }
 
 .skill-box h3 {
   color: var(--color-black);
   margin-bottom: var(--spacing-sm);
   font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .skill-buttons {

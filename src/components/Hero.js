@@ -48,7 +48,7 @@ const Hero = () => {
             >
               <i className="bi bi-linkedin" aria-hidden="true" />
             </a>
-            <a href="mailto:youremail@example.com" className="social-icon">
+            <a href={`mailto:${PORTFOLIO_DATA.email}`} className="social-icon">
               <i className="bi bi-envelope-fill" aria-hidden="true" />
             </a>
           </div>
