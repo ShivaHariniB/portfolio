@@ -1,16 +1,16 @@
 import "./App.css";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import IntroSection from "./components/IntroSection";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <Hero />
+        <IntroSection />
         <Skills />
         <Experience />
         <section id="projects">

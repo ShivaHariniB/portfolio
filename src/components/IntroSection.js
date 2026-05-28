@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Hero.css";
+import "../styles/IntroSection.css";
 import { PORTFOLIO_DATA } from "../constants";
 
-const Hero = () => {
+const IntroSection = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-container">
@@ -70,4 +70,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default IntroSection;
