@@ -59,7 +59,7 @@ const IntroSection = () => {
         </div>
 
         <div className="hero-image">
-          <img src="/assets/images/profile.jpg" alt={PORTFOLIO_DATA.name} />
+          <img src="/assets/images/profile.JPG" alt={PORTFOLIO_DATA.name} />
           <div className="availability-tag">
             <span className="availability-dot"></span>
             Open to Opportunities
