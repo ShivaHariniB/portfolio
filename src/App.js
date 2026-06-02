@@ -13,9 +13,9 @@ function App() {
         <IntroSection />
         <Skills />
         <Experience />
-        <section id="projects">
+        {/* <section id="projects">
           <h2>Projects</h2>
-        </section>
+        </section> */}
         <Contact />
       </main>
     </div>
