@@ -81,10 +81,7 @@ through the `constants.js` file and component sections.
 
 ## Future Improvements
 
-- Dark mode support
 - Project showcase section
-- Animations and transitions
-- Blog integration
 
 ## Author
 
