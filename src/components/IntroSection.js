@@ -7,7 +7,7 @@ const IntroSection = () => {
     <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-text">
-          <div className="btn btn-primary-intro-badge">
+          <div className="btn-primary-intro-badge">
             👋 Software Developer based in Seattle
           </div>
           <h1>
